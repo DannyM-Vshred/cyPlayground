@@ -1,0 +1,23 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-ga",
+        "checkoutUrl": "ripped-in-90-days-bundle-msf-bt-f3",
+        "productDescription": "Ripped In 90 Days",
+        "productPrice": "$57.00 USD",
+        "productBundle": [
+            "Ripped In 90 Days",
+            "Six-Pack Shred",
+            "Recipe Guide",
+            "Big Arms Program"
+        ]
+    },
+    "firstName": "Automation",
+    "lastName": "QA-Test",
+    "clientName": "Automation QA-Test",
+    "country": "US",
+    "address": "221 Las Vegas Boulevard North",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89101",
+    "phoneNumber": "7026369930"
+}

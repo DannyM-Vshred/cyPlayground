@@ -1,0 +1,15 @@
+{
+    "surveyLandingPage": {
+        "surveyUrl": "/sp/survey/survey-ga"
+    },
+
+    "firstName": "Automation",
+    "lastName": "QA-Test",
+    "clientName": "Automation QA-Test",
+    "country": "US",
+    "address": "221 Las Vegas Boulevard North",
+    "city": "Las Vegas",
+    "state": "NV",
+    "postalCode": "89101",
+    "phoneNumber": "7026369930"
+}

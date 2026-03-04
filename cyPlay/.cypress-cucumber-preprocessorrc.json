@@ -1,0 +1,9 @@
+{
+    "stepDefinitions": [
+        "src/Ecommerce/StoreFront/cypress/support/step_definitions/**/*.{js,ts}",
+        "src/Ecommerce/_libs/step_definitions/**/*.{js,ts}"
+    ],
+    "pretty": {
+        "enabled": true
+    }
+}

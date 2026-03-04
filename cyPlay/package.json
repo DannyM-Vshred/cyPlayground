@@ -1,0 +1,54 @@
+{
+    "name": "single-web-test-automation-framework",
+    "version": "1.0.0",
+    "description": "Common web projects test automation framework",
+    "main": "index.js",
+    "repository": "https://github.com/VinsanityShred/common-web-test-automation-framework.git",
+    "author": "VinsanityShred",
+    "license": "ISC",
+    "scripts": {
+        "open:le:sn": "cypress open --project ./src/Ecommerce/StoreFront --config-file le.sn.config.ts",
+        "test:le:sn": "cypress run --project ./src/Ecommerce/StoreFront --config-file le.sn.config.ts --record --key 715f0e40-2893-4996-8689-202e94bf2ae2 --parallel",
+        "lint": "yarn cache clean && eslint . --ext .js,.ts",
+        "lint:fix": "yarn lint --fix",
+        "format": "prettier --write **/*.{js,ts}"
+    },
+    "dependencies": {
+        "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+        "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+        "@testing-library/cypress": "^10.0.1",
+        "@types/mysql": "^2.15.21",
+        "@types/node": "^20.6.2",
+        "cypress-file-upload": "^5.0.8",
+        "cypress-plugin-steps": "^1.2.1",
+        "cypress-real-events": "^1.15.0",
+        "esbuild": "^0.19.3",
+        "jimp": "^0.22.10",
+        "mysql2": "^3.6.1",
+        "node-ssh": "^13.1.0",
+        "otplib": "^12.0.1",
+        "pg-promise": "11.5.4",
+        "rimraf": "^5.0.1",
+        "typescript": "^5.2.2"
+    },
+    "devDependencies": {
+        "@tsconfig/node16": "^16.1.1",
+        "@types/ssh2": "^1.11.13",
+        "@typescript-eslint/eslint-plugin": "^6.7.2",
+        "@typescript-eslint/parser": "^6.7.2",
+        "@typescript-eslint/typescript-estree": "^6.7.2",
+        "cypress": "^13.17.0",
+        "eslint": "^8.49.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-config-airbnb-typescript": "^17.1.0",
+        "eslint-config-prettier": "^9.0.0",
+        "eslint-import-resolver-typescript": "^3.6.0",
+        "eslint-plugin-cypress": "^2.15.1",
+        "eslint-plugin-import": "^2.28.1",
+        "jest-junit": "^16.0.0",
+        "prettier": "^3.0.3"
+    },
+    "resolutions": {
+        "jimp/@jimp/plugins/@jimp/plugin-print/load-bmfont/parse-bmfont-xml/xml2js": "^0.6.0"
+    }
+}
