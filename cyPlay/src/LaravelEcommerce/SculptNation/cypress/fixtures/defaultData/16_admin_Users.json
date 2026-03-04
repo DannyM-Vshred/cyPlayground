@@ -1,0 +1,20 @@
+{
+    "firstName": "Automation",
+    "lastName": "UserRegtest",
+    "phone": "(617) 389-0046",
+    "address": "69523 Decatur Boulevard",
+    "address2": "Suite 584",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "United States of America",
+    "postalCode": "89100",
+
+    "editUserDetails": {
+        "firstName": "ModifiedUser",
+        "lastName": "UpdatedRegtest",
+        "phoneNumber": "8894554614",
+        "newPassword": "newPassword88",
+        "invalidConfirmPassword": "invalidPassword"
+    }
+}
+
