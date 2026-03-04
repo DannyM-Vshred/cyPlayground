@@ -24,7 +24,7 @@ Given('The user loads the LE test data', () => {
 
 When('The user reloads the page', () => {
     cy.reload();
-    cy.skipVideo();
+    // cy.skipVideo();
 
 });
 

@@ -13,5 +13,5 @@ declare global {
  *
  */
 export const logStep = (message: string): void => {
-    cy.step(message);
+    Cypress.log({ message });
 };
